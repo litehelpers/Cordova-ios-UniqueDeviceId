@@ -50,3 +50,7 @@ Given an Xcode iOS project, include the dependencies from [gekitz / UIDevice-wit
  - Using callback functions may not have been the best choice here, it should be very easy to have these
    values ready by the time of the `onDeviceReady()` callback.
 
+**Alternative(s):**
+
+ - [OpenDID](https://github.com/ylechelle/OpenUDID)
+
