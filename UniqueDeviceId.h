@@ -4,13 +4,7 @@
 
 #import <Foundation/Foundation.h>
 
-
-#import <Foundation/Foundation.h>
-#ifdef CORDOVA_FRAMEWORK
-#import <Cordova/CDVPlugin.h>
-#else
-#import "CDVPlugin.h"
-#endif
+#import <CORDOVA/CDVPlugin.h>
 
 @interface UniqueDeviceId : CDVPlugin {
 }
